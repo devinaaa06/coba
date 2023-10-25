@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> NYOBA DOANG </title>
+        <link rel = "stylesheet" href="style.css" />
+        // misalkan css nya dipisah
+    </head>
+    <body>
+         <div id = "container">
+            <h1> Tabel Anda </h1>
+            <p> Masukkan Link Tabel </p>
+            <input type = "text" id = "url" placeholder="Maukkan url anda" value = "https://testingalpro.alwaysdata.net/api/getcoffee.php">
+            <button id="fetchButton" onclick="fetchData()">Ambil Data</button>
+            <script src = "java.js"> </script>
+            // ini kl mau buat js nya berbeda file
+            <div id="table-container">
+                <table id="data-table"></table>
+            </div>
+         </div>
+    </body>
+</html>
